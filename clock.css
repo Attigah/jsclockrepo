@@ -59,7 +59,7 @@ body {
 .clock::after {
   content: '';
   position: absolute;
-  background-color: black;
+  background-color: rgb(185, 152, 152);
   z-index: 11;
   width: 15px;
   height: 15px;
@@ -72,17 +72,17 @@ body {
 .clock .hand.second {
   width: 3px;
   height: 45%;
-  background-color: red;
+  background-color: rgb(28, 15, 114);
 }
 
 .clock .hand.minute {
   width: 7px;
   height: 40%;
-  background-color: black;
+  background-color: rgb(46, 36, 124);
 }
 
 .clock .hand.hour {
   width: 10px;
   height: 35%;
-  background-color: black;
+  background-color: rgb(27, 68, 164);
 }
